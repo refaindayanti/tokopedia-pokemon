@@ -49,7 +49,7 @@ const MyPokemon = () => {
     return (
         <React.Fragment>
             <Container className="container-home">
-                <button className="btn-pokemon" onClick={() => history.push(`/home`)}>Home</button>
+                <button className="btn-pokemon" onClick={() => history.push(`/`)}>Home</button>
                 <h3>My Pokemon Lists</h3>
                 <Row>
                     {list}
