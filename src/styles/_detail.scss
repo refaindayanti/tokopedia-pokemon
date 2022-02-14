@@ -1,0 +1,38 @@
+.title-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(233, 230, 230);
+
+    .img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .title-text {
+        padding-left: 8px;
+
+        .btn {
+            padding: 4px 24px;
+            border-radius: 4px;
+            border: 1px solid black;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin: 0 0 8px 0;
+            padding: 0;  
+        }
+    }
+}
+
+.detail {
+    padding: 20px;
+}

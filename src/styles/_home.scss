@@ -1,0 +1,20 @@
+.container-home {
+    padding-top: 48px; 
+    padding-bottom: 48px; 
+
+    .list {
+        border-bottom: 1px solid rgb(233, 230, 230);
+        padding: 16px 8px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ececec;
+        }
+
+        .list-title {
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+        }
+    }
+}
