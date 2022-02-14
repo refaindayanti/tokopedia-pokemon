@@ -45,6 +45,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <Container className="container-home">
+                <button className="btn-pokemon" onClick={() => history.push(`/my-pokemon`)}>My Pokemon Lists</button>
                 <h3>Pokemon Lists</h3>
                 <Row>
                     {pokemon}
